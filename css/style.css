@@ -191,23 +191,32 @@ body {
     color: #2ecc71;
 }
 
+.main-info {
+    padding-top: 100px;
+    padding-bottom: 95px;
+}
+
 .main-info__text {
-    margin-bottom: 95px;
+    margin-bottom: 20px;
     width: 360px;
 }
 
 .main-info__item {
     float: left;
     width: 380px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.main-info__item:first-child {
-    margin-left: 0;
+.main-info__item:last-child {
+    margin-right: 0;
+}
+
+.main-info__title {
+    padding-top: 20px;
 }
 
 .minor-info__title {
-    padding-top: 90px;
+    padding-top: 100px;
     margin-bottom: 45px;
 }
 
@@ -287,8 +296,9 @@ body {
 .portfolio-item {
     float: left;
     width: 365px;
-    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .portfolio-item:hover {
@@ -299,8 +309,8 @@ body {
     margin-bottom: 100px;
 }
 
-.portfolio-item:nth-child(3n+1) {
-    margin-left: 0;
+.portfolio-item:nth-child(3n) {
+    margin-right: 0;
 }
 
 .minor-info-item__text {
@@ -310,12 +320,12 @@ body {
 .skills__info {
     float: left;
     width: 540px;
+    margin-right: 100px;
 }
 
 .skills-items {
     float: left;
     width: 540px;
-    margin-left: 100px;
 }
 
 .skills__text {
@@ -324,11 +334,15 @@ body {
 
 .skills__btn {
     padding: 15px 36px;
-    margin-bottom: 180px;
+    margin-bottom: 40px;
 }
 
 .skill-item {
     margin-bottom: 40px;
+}
+
+.skill-item:last-child {
+    margin-bottom: 180px;
 }
 
 .skill-item__progress {
@@ -350,10 +364,6 @@ body {
 
 .percent-70 {
     padding-left: 336px;
-}
-
-.percent-60 {
-    padding-left: 280px;
 }
 
 .resume__container {
@@ -432,7 +442,7 @@ body {
 .courses-item {
     float: left;
     width: 365px;
-    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 40px;
 }
 
@@ -440,9 +450,9 @@ body {
     margin-bottom: 100px;
 }
 
-.education-item:nth-child(3n+1),
-.courses-item:nth-child(3n+1) {
-    margin-left: 0;
+.education-item:nth-child(3n),
+.courses-item:nth-child(3n) {
+    margin-right: 0;
 }
 
 .testimonial-item__text {
@@ -460,6 +470,7 @@ body {
 
 .contacts__info {
     float: left;
+    margin-right: 100px;
     width: 540px;
     color: #ccc;
 }
@@ -470,13 +481,13 @@ body {
 }
 
 .contacts__mail-phone {
-    margin-bottom: 450px;
+    margin-bottom: 50px;
 }
 
 .contacts__form {
     float: left;
     width: 540px;
-    margin-left: 100px;
+    margin-bottom: 100px;
 }
 
 .contact-form__name-lbl,
