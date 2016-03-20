@@ -309,9 +309,12 @@ body {
     margin-bottom: 100px;
 }
 
-.portfolio-item:nth-child(3n) {
-    margin-right: 0;
+@media (min-width: 1200px) {
+    .portfolio-item:nth-child(3n) {
+        margin-right: 0;
+    }
 }
+
 
 .minor-info-item__text {
     font-size: 18px;
