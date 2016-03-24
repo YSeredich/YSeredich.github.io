@@ -25,11 +25,11 @@ define([
       if (demoLocation.bottom < 0) {
         game.setGameStatus(window.Game.Verdict.PAUSE);
       }
-      var cloudsLocation = clouds.getBoundingClientRect();
-      if (cloudsLocation.bottom > 0) {
-        clouds.style.backgroundPositionX = cloudsLocation.bottom + 'px';
-      }
     }, 100);
+    var cloudsLocation = clouds.getBoundingClientRect();
+    if (cloudsLocation.bottom > 0) {
+      clouds.style.backgroundPositionX = cloudsLocation.bottom + 'px';
+    }
   });
 
   /**
