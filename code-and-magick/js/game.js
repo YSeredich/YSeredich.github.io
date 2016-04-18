@@ -13,6 +13,8 @@ define([
 
   var clouds = document.querySelector('.header-clouds');
   var demo = document.querySelector('.demo');
+  var cloudsLocation = clouds.getBoundingClientRect();
+  clouds.style.backgroundPositionX = cloudsLocation.bottom + 'px';
   var scrollTimeout;
 
   /**
@@ -26,7 +28,7 @@ define([
         game.setGameStatus(window.Game.Verdict.PAUSE);
       }
     }, 100);
-    var cloudsLocation = clouds.getBoundingClientRect();
+    cloudsLocation = clouds.getBoundingClientRect();
     if (cloudsLocation.bottom > 0) {
       clouds.style.backgroundPositionX = cloudsLocation.bottom + 'px';
     }
