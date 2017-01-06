@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Юлия Середич Front-end разработчик</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&subset=latin,cyrillic-ext'
+          rel='stylesheet' type='text/css'>
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav container">
+<header class="header">
+    <div class="container">
+        <nav class="nav">
             <div class="nav__item">
                 <a href="#about-me" class="nav__link">обо мне</a>
             </div>
@@ -32,330 +34,351 @@
                 <a href="#contacts" class="nav__link">контакты</a>
             </div>
         </nav>
-    </header>
-    <main>
-        <section class="about-me clearfix">
-            <div class="main-info">
-                <div class="container clearfix">
-                    <div class="main-info__item">
-                        <h2 class="title main-info__title">Ценности</h2>
-                        <p class="main-info__text">
-                            Считаю, что главное в людях честность,
-                            способность принимать трудные решения
-                            и способность им следовать в дальнейшем.
-                        </p>
-                    </div>
-                    <div class="main-info__item">
-                        <h2 class="title main-info__title">Цели</h2>
-                        <p class="main-info__text">
-                            Стать "синьором девелопером",
-                            завести как можно больше больших и умных собак,
-                            посетить как минимум 50 различных стран.
-                        </p>
-                    </div>
-                    <div class="main-info__item">
-                        <h2 class="title main-info__title">Хобби</h2>
-                        <p class="main-info__text">
-                            Люблю складывать пазлы, читать книги.
-                            Морю предпочитаю горы. Хочу научиться
-                            играть на фортепиано.
-                        </p>
-                    </div>
+    </div>
+</header>
+<main>
+    <section class="about-me clearfix">
+        <div class="main-info">
+            <div class="container clearfix">
+                <div class="main-info__item">
+                    <h2 class="title main-info__title">Ценности</h2>
+                    <p class="main-info__text">
+                        Считаю, что главное в людях честность,
+                        способность принимать трудные решения
+                        и способность им следовать в дальнейшем.
+                    </p>
+                </div>
+                <div class="main-info__item">
+                    <h2 class="title main-info__title">Цели</h2>
+                    <p class="main-info__text">
+                        Стать "синьором девелопером",
+                        завести как можно больше больших и умных собак,
+                        посетить как минимум 50 различных стран.
+                    </p>
+                </div>
+                <div class="main-info__item">
+                    <h2 class="title main-info__title">Хобби</h2>
+                    <p class="main-info__text">
+                        Люблю складывать пазлы, читать книги.
+                        Морю предпочитаю горы. Хочу научиться
+                        играть на фортепиано.
+                    </p>
                 </div>
             </div>
-                <div id="about-me" class="minor-info clearfix">
-                    <div class="minor-info__photo">
-                        <img src="img/my-photo.jpg" class="minor-info__img" alt="Фотография" width="610" height="755">
-                    </div>
-                    <div class="minor-info__narration container">
-                        <h2 class="title minor-info__title">обо мне</h2>
-                        <p class="minor-info__text">
-                            Я студентка шестого курса Санкт-Петербургского политеха.
-                            На данный момент пишу диплом и развиваю навыки необходимые фронт-энд
-                            разработчику. Хочу найти работу с возможностью и дальше развиваться
-                            и узнавать что-то новое в этой области.
-                        </p>
-                        <p class="minor-info__text">
-                            Легко увлекаюсь работой у которой четко виден результат, поэтому и
-                            выбрала веб-разработку. Легко выхожу на контакт с людьми, но стараюсь
-                            по возможности не смешивать личные контакты с рабочими.
-                        </p>
-                        <div class="minor-info-items clearfix">
-                            <div class="minor-info__item">
-                                <h3 class="secondary-title minor-info-item__title logo-js">Junior front-end разработчик</h3>
-                                <p class="minor-info-item__text">Возможность углубиться в изучении JavaScript.</p>
-                            </div>
-                            <div class="minor-info__item">
-                                <h3 class="secondary-title minor-info-item__title icon-user">Помощник программиста</h3>
-                                <p class="minor-info-item__text">Возможность развиваться, как программист.</p>
-                            </div>
-                            <div class="minor-info__item">
-                                <h3 class="secondary-title minor-info-item__title icon-html5">HTML верстальщик</h3>
-                                <p class="minor-info-item__text">Возможность укрепить на практике,
-                                    имеющиеся навыки в верстке.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <section id="portfolio" class="portfolio">
+        </div>
+        <div id="about-me" class="minor-info clearfix">
             <div class="container">
-                <h2 class="title portfolio__title">Портфолио</h2>
-                <p class="portfolio__info">
-                    На данный момент в портфолио вы можете увидеть результаты моей работы на интенсиве
-                    по HTML/CSS (макеты интернет-магазина техномарт: интерактивная карта и форма по нажатию на кнопу "заблудились")
-                    , на интенсиве по JavaScript (сайт игры "Код и Магия" валидация формы, сортировка списков, галерея,
-                    параллакс) и самостоятельно сверстанные макеты, получаемые в ежемесячной рассылке от
-                    HTML Academy (собственно резюме и макет "modest").
+                <div class="minor-info__photo"></div>
+                <div class="minor-info__narration">
+                    <h2 class="title minor-info__title">обо мне</h2>
+                    <p class="minor-info__text">
+                        В прошлом году закончила Санкт-Петербургский Политехнический Университет.
+                        На данный работаю на должности junior frontend developer. В основные обязанности входит верстка
+                        сайтов и
+                        лендингов, написание скриптов на JS. Развиваю навыки необходимые frontend
+                        разработчику и приношу коллегам конфетки. Хочу найти работу с возможностью и дальше развиваться
+                        и узнавать что-то новое в этой области.
+                    </p>
+
+                    <p class="minor-info__text">
+                        Легко увлекаюсь работой у которой четко виден результат, поэтому и
+                        выбрала веб-разработку. Легко выхожу на контакт с людьми, но стараюсь
+                        по возможности не смешивать личные контакты с рабочими.
+                    </p>
+
+                    <div class="minor-info__item">
+                        <h3 class="secondary-title minor-info-item__title logo-js">Frontend developer</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="title portfolio__title">Портфолио</h2>
+            <p class="portfolio__info">
+                На данный момент в портфолио вы можете увидеть результаты моей работы на интенсиве
+                по HTML/CSS (макеты интернет-магазина техномарт)
+                , на интенсиве по JavaScript (сайт игры "Код и Магия" валидация формы, сортировка списков, галерея,
+                параллакс) и самостоятельно сверстанные макеты, получаемые в ежемесячной рассылке от
+                HTML Academy (собственно резюме и макет "modest"). Последняя ссылка, первый проект на новой работе,
+                сделанный в команде из 4ех разработчиков. Внесла свою маленькую лепту.
+            </p>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <a class="portfolio-item__link" href="technomart/index.html">
+                        <img src="img/technomart-index.jpg" class="portfolio-item__img" alt="техномарт" width="365"
+                             height="365">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a class="portfolio-item__link" href="technomart/catalog.html">
+                        <img src="img/technomart-catalog.jpg" class="portfolio-item__img" alt="техномарт2" width="365"
+                             height="365">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a class="portfolio-item__link" href="modest/index.html">
+                        <img src="img/modest.jpg" class="portfolio-item__img" alt="модест" width="365" height="365">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a class="portfolio-item__link" href="#about-me">
+                        <img src="img/portfolio.jpg" class="portfolio-item__img" alt="портфолио" width="365"
+                             height="365">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a class="portfolio-item__link" href="code-and-magick/index.html">
+                        <img src="img/code-magik.jpg" class="portfolio-item__img" alt="код и магия" width="365"
+                             height="365">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a class="portfolio-item__link" href="https://bampsi.ru/">
+                        <img src="img/bm.png" class="portfolio-item__img" alt="" width="365" height="365">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resume" class="resume">
+        <div class="container resume__container">
+            <h2 class="title resume__title">Резюме</h2>
+            <p class="resume__info">
+                Если вас заинтересовала моя кандидатура, вы можете скачать мое резюме
+                (идентичное резюме на Head Hunter) прямо с этого сайта. Без регистрации и SMS.
+            </p>
+            <a href="SeredichYE_resume.pdf" class="btn download-btn resume__btn" download>Скачать резюме</a>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container clearfix skills__container">
+            <h2 class="title skills__title">Навыки</h2>
+            <div class="skills__info">
+                <div class="skills__subtitle">Основные навыки:</div>
+
+                <ul class="skills__list" >
+                    <li>Кроссбраузерная, валидная, семантичная, адаптивная верстка</li>
+                    <li>Уверенные знания JavaScript (базовые ES6)</li>
+                    <li>Умею БЭМ, Bootstrap 3, Foundation, LESS, SASS, jQuery</li>
+                    <li>Все необходимые для верстальщика навыки работы с Photoshop</li>
+                    <li>Учу React</li>
+                    <li>Опыт работы с git, JIRA, IDE - WebStorm, OS: Windows, Linux.</li>
+                    <li>Английский язык Upper Intermediate(B2)</li>
+                </ul>
+
+                <div class="skills__subtitle">Помимо основных навыков:</div>
+
+                <ul class="skills__list">
+                    <li>Имею представление о PHP и SQL (вузовский курс), Python</li>
+                </ul>
+                <a class="btn contact-btn skills__btn" href="#contacts">Свяжитесь со мной</a>
+            </div>
+            <div class="skills-items">
+                <div class="skill-item">
+                    <h3 class="secondary-title skill-item__title">HTML, CSS</h3>
+                    <div class="skill-item__container">
+                        <div class="skill-item__progress">
+                            <p class="skill-item__percent percent-90">90%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3 class="secondary-title skill-item__title">JavaScript</h3>
+                    <div class="skill-item__container">
+                        <div class="skill-item__progress">
+                            <p class="skill-item__percent percent-80">80%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3 class="secondary-title skill-item__title">Photoshop for web</h3>
+                    <div class="skill-item__container">
+                        <div class="skill-item__progress">
+                            <p class="skill-item__percent percent-90">90%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3 class="secondary-title skill-item__title">Git</h3>
+                    <div class="skill-item__container">
+                        <div class="skill-item__progress">
+                            <p class="skill-item__percent percent-80">80%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="education">
+        <div class="container clearfix education__container">
+            <h2 class="title education__title">Образование</h2>
+            <div class="education-items">
+                <div class="education-item">
+                    <h3 class="secondary-title education-item__title">Среднее образование</h3>
+                    <p class="education__place-date"><span class="education__place">Лицей</span> / 2010</p>
+                    <div class="education__gpa">5.0</div>
+                    <p class="education__info">
+                        Окончила Гомельский городской лицей №1 (с физико-математическим уклоном)
+                        с золотой медалью. Участвовала в олимпиадах по физике на республиканском уровне.
+                    </p>
+                </div>
+                <div class="education-item">
+                    <h3 class="secondary-title education-item__title">Бакалавриат</h3>
+                    <p class="education__place-date"><span class="education__place">СПбГПУ</span> / 2010 - 2014</p>
+                    <div class="education__gpa">4.4</div>
+                    <p class="education__info">
+                        Окончила бакалавриат в Институте физики, нанотехнологий и телекоммуникаций.
+                        Защитила диплом на отлично, по теме: "Научение мысленно имитированным движениям с их
+                        отражением в ЭЭГ"
+                    </p>
+                </div>
+                <div class="education-item">
+                    <h3 class="secondary-title education-item__title">Магистратура</h3>
+                    <p class="education__place-date"><span class="education__place">СПбГПУ</span> / 2014 - 2016</p>
+                    <div class="education__gpa">4.7</div>
+                    <p class="education__info">
+                        Закончила обучение в магистратуре c красным дипломом и защитила магистерскую диссертацию по
+                        теме: "Разработка и исследование шасси адаптированной к городским условиям
+                        мехатронной инвалидной коляски" на отлично.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="courses" class="courses">
+        <div class="container clearfix">
+            <h2 class="title courses__title">Курсы</h2>
+            <div class="courses-items">
+                <div class="courses-item">
+                    <h3 class="secondary-title courses-item__title">интенсив HTML/CSS</h3>
+                    <p class="courses__place-date"><span class="courses__place">Htmlacademy</span> / август - сентябрь
+                        2015</p>
+                    <div class="courses__gpa">100%</div>
+                    <p class="courses__info">
+                        Успешно прошла базовый интенсив по HTML/CSS. Защитила выпускной проект с максимальным
+                        количеством баллов. Предварительно прошла все как базовые, так и продвинутые курсы в
+                        Html Academy.
+                    </p>
+                </div>
+                <div class="courses-item">
+                    <h3 class="secondary-title courses-item__title">интенсив JavaScript</h3>
+                    <p class="courses__place-date"><span class="courses__place">Htmlacademy</span> / ноябрь - декабрь
+                        2015</p>
+                    <div class="courses__gpa">100%</div>
+                    <p class="courses__info">
+                        Успешно прошла базовый интенсив по Javascript. Защитила выпускной проект. Прошла путь от
+                        написания простейших программ на JS до объектно-ориентированного программирования и основ
+                        систем сборки сайтов.
+                    </p>
+                </div>
+                <div class="courses-item">
+                    <h3 class="secondary-title courses-item__title">Английский язык</h3>
+                    <p class="courses__place-date"><span class="courses__place">English First</span> / 2015 - 2016</p>
+                    <div class="courses__gpa english-level">Upper Intermediate</div>
+                    <p class="courses__info">
+                        В течении года изучала английский язык с помощью уникальной онлайн-программы, оффлайн занятий
+                        в школе с русскими учителями и носителями языка из США и Великобритании. Плюс еженедельно
+                        посещала разговорные клубы и индивидуальные занятия по скайпу с носителями языка.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section class="testimonials">
+        <div class="testimonial-items container">
+            <div class="testimonial-item">
+                <div class="testimonial-item__text">
+                    собака собака собака собака
+                    собака собака собака собака
+                    собака собака собака собака
+                    собака собака собака собака
+                </div>
+                <div class="testimonial-item__author">автор1</div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-item__text">
+                    собака собака собака собака
+                    собака собака собака собака
+                    собака собака собака собака
+                    собака собака собака собака
+                </div>
+                <div class="testimonial-item__author">автор2</div>
+            </div>
+        </div>
+        <div class="paginator testimonials__paginator">
+            <a class="paginator__toggle" href="#"></a>
+            <a class="paginator__toggle paginator__toggle_active" href="#"></a>
+        </div>
+    </section> -->
+    <section id="contacts" class="contacts">
+        <div class="container clearfix">
+            <h2 class="title contacts__title">Контакты</h2>
+            <div class="contacts__info">
+                <p class="contacts__text">
+                    Ниже представлена моя контактная информация. Предпочтительным способом связи
+                    является электронная почта.
                 </p>
-                <div class="portfolio-items clearfix">
-                    <div class="portfolio-item">
-                        <a class="portfolio-item__link" href="technomart/index.html">
-                            <img src="img/technomart-index.jpg" class="portfolio-item__img" alt="техномарт" width="365" height="365">
-                        </a>
-                    </div>
-                    <div class="portfolio-item">
-                        <a class="portfolio-item__link" href="technomart/catalog.html">
-                            <img src="img/technomart-catalog.jpg" class="portfolio-item__img" alt="техномарт2" width="365" height="365">
-                        </a>
-                    </div>
-                    <div class="portfolio-item">
-                        <a class="portfolio-item__link" href="modest/index.html">
-                            <img src="img/modest.jpg" class="portfolio-item__img" alt="модест" width="365" height="365">
-                        </a>
-                    </div>
-                    <div class="portfolio-item">
-                        <a class="portfolio-item__link" href="#about-me">
-                            <img src="img/portfolio.jpg" class="portfolio-item__img" alt="портфолио" width="365" height="365">
-                        </a>
-                    </div>
-                    <div class="portfolio-item">
-                        <a class="portfolio-item__link" href="code-and-magick/index.html">
-                            <img src="img/code-magik.jpg" class="portfolio-item__img" alt="код и магия" width="365" height="365">
-                        </a>
-                    </div>
-                    <div class="portfolio-item">
-                        <a class="portfolio-item__link" href="https://bampsi.ru/">
-                            <img src="img/bm.png" class="portfolio-item__img" alt="" width="365" height="365">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="skills" class="skills">
-            <div class="container clearfix">
-                <h2 class="title skills__title">Навыки</h2>
-                <div class="skills__info">
-                    <p class="skills__text">
-                        <span class="skills__span">Основные навыки:</span><br>
-                        кроссбраузерная валидная семантичная верстка, умение работать с
-                        макетами в Photoshop, базовые знания в Javascript, опыт использования Git,
-                        английский язык на уровне выше среднего (B2).
-                    </p>
-                    <p class="skills__text">
-                        <span class="skills__span">Помимо основных навыков:</span><br>
-                        пониманию БЭМ, знакома с LESS, имею представление о Bootstrap и PHP, SQL
-                         (были занятия в вузе).
-                    </p>
-                    <a class="btn contact-btn skills__btn" href="#contacts">Свяжитесь со мной</a>
-                </div>
-                <div class="skills-items">
-                    <div class="skill-item">
-                        <h3 class="secondary-title skill-item__title">HTML, CSS</h3>
-                        <div class="skill-item__container">
-                            <div class="skill-item__progress">
-                                <p class="skill-item__percent">90%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <h3 class="secondary-title skill-item__title">JavaScript</h3>
-                        <div class="skill-item__container">
-                            <div class="skill-item__progress">
-                                <p class="skill-item__percent percent-70">70%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <h3 class="secondary-title skill-item__title">Photoshop for web</h3>
-                        <div class="skill-item__container">
-                            <div class="skill-item__progress">
-                                <p class="skill-item__percent">90%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <h3 class="secondary-title skill-item__title">Git</h3>
-                        <div class="skill-item__container">
-                            <div class="skill-item__progress">
-                                <p class="skill-item__percent percent-70">70%</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="resume" class="resume">
-            <div class="container resume__container">
-                <h2 class="title resume__title">Резюме</h2>
-                <p class="resume__info">
-                    Если вас заинтересовала моя кандидатура, вы можете скачать мое резюме
-                    (идентичное резюме на Head Hunter) прямо с этого сайта.
+                <p class="contacts__mail-phone">
+                    <span class="contacts__mail">Email:</span> yseredich@gmail.com<br>
+                    <span class="contacts__phone">Телефон:</span> +7 (911) 841-27-48<br>
+                    <span class="contacts__skype">Skype:</span> yulia_seredich
                 </p>
-                <a href="img/SeredichYE_resume.pdf" class="btn download-btn resume__btn" download>Скачать резюме</a>
             </div>
-        </section>
-        <section id="education" class="education">
-            <div class="container clearfix education__container">
-                <h2 class="title education__title">Образование</h2>
-                <div class="education-items">
-                    <div class="education-item">
-                        <h3 class="secondary-title education-item__title">Среднее образование</h3>
-                        <p class="education__place-date"><span class="education__place">Лицей</span> / 2010</p>
-                        <div class="education__gpa">5.0</div>
-                        <p class="education__info">
-                            Окончила Гомельский городской лицей №1 (с физико-математическим уклоном)
-                            с золотой медалью. Участвовала в олимпиадах по физике на республиканском уровне.
-                        </p>
-                    </div>
-                    <div class="education-item">
-                        <h3 class="secondary-title education-item__title">Бакалавриат</h3>
-                        <p class="education__place-date"><span class="education__place">СПбГПУ</span> / 2010 - 2014</p>
-                        <div class="education__gpa">4.4</div>
-                        <p class="education__info">
-                            Окончила бакалавриат в Институте физики, нанотехнологий и телекоммуникаций.
-                            Защитила диплом на отлично, по теме: "Научение мысленно имитированным движениям с их
-                            отражением в ЭЭГ"
-                        </p>
-                    </div>
-                    <div class="education-item">
-                        <h3 class="secondary-title education-item__title">Магистратура</h3>
-                        <p class="education__place-date"><span class="education__place">СПбГПУ</span> / 2014 - 2016</p>
-                        <div class="education__gpa">4.7</div>
-                        <p class="education__info">
-                            Закончила обучение в магистратуре, сдав государственный экзамен на отлично. На данный момент
-                            пишу диплом по теме: "Разработка и исследование шасси адаптированной к городским условиям
-                            мехатронной инвалидной коляски".
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="courses" class="courses">
-            <div class="container clearfix">
-                <h2 class="title courses__title">Курсы</h2>
-                <div class="courses-items">
-                    <div class="courses-item">
-                        <h3 class="secondary-title courses-item__title">интенсив HTML/CSS</h3>
-                        <p class="courses__place-date"><span class="courses__place">Htmlacademy</span> / август - сентябрь 2015</p>
-                        <div class="courses__gpa">100%</div>
-                        <p class="courses__info">
-                            Успешно прошла базовый интенсив по HTML/CSS. Защитила выпускной проект с максимальным
-                            количеством баллов. Предварительно прошла все как базовые, так и продвинутые курсы в
-                            Html Academy, где на данный момент (27.02.2016) являюсь <a class="leader" href="https://htmlacademy.ru/rating">лидером</a>.
-                        </p>
-                    </div>
-                    <div class="courses-item">
-                        <h3 class="secondary-title courses-item__title">интенсив JavaScript</h3>
-                        <p class="courses__place-date"><span class="courses__place">Htmlacademy</span> / ноябрь - декабрь 2015</p>
-                        <div class="courses__gpa">100%</div>
-                        <p class="courses__info">
-                            Успешно прошла базовый интенсив по Javascript. Защитила выпускной проект. Прошла путь от
-                            написание простейших программ на JS до объектно-ориентированного программирования и основ
-                            систем сборки сайтов.
-                        </p>
-                    </div>
-                    <div class="courses-item">
-                        <h3 class="secondary-title courses-item__title">Английский язык</h3>
-                        <p class="courses__place-date"><span class="courses__place">English First</span> / 2015 - 2016</p>
-                        <div class="courses__gpa english-level">Upper Intermediate</div>
-                        <p class="courses__info">
-                            В течении года изучала английский язык с помощью уникальной онлайн-программы, оффлайн занятий
-                            в школе с русскими учителями и носителями языка из США и Великобритании. Плюс еженедельно
-                            посещала разговорные клубы и индивидуальные занятия по скайпу с носителями языка.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--<section class="testimonials">
-            <div class="testimonial-items container">
-                <div class="testimonial-item">
-                    <div class="testimonial-item__text">
-                        собака собака собака собака
-                        собака собака собака собака
-                        собака собака собака собака
-                        собака собака собака собака
-                    </div>
-                    <div class="testimonial-item__author">автор1</div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-item__text">
-                        собака собака собака собака
-                        собака собака собака собака
-                        собака собака собака собака
-                        собака собака собака собака
-                    </div>
-                    <div class="testimonial-item__author">автор2</div>
-                </div>
-            </div>
-            <div class="paginator testimonials__paginator">
-                <a class="paginator__toggle" href="#"></a>
-                <a class="paginator__toggle paginator__toggle_active" href="#"></a>
-            </div>
-        </section> -->
-        <section id="contacts" class="contacts">
-            <div class="container clearfix">
-                <h2 class="title contacts__title">Контакты</h2>
-                <div class="contacts__info">
-                    <p class="contacts__text">
-                        Ниже представлена моя контактная информация. Предпочтительным способом связи
-                        является электронная почта.
-                    </p>
-                    <p class="contacts__address">
-                        Лесной проспект, дом 65<br>
-                        РФ,Санкт-Петербург <br>
-                        194100
-                    </p>
-                    <p class="contacts__mail-phone">
-                        <span class="contacts__mail">Email:</span> yseredich@gmail.com<br>
-                        <span class="contacts__phone">Телефон:</span> +7 (911) 841-27-48<br>
-                    </p>
-                </div>
-                <div class="contacts__form">
-                    <form class="contact-form" method="post">
-                        <div class="contact-form__input-area">
-                            <div class="contact-form__name-block">
-                                <label class="contact-form__name-lbl" for="user-name-block">Ваше имя <span class="star"> *</span></label>
-                                <input id="user-name-block" class="contact-form__user-name" type="text" name="user-name" required>
-                            </div>
-                            <div class="contact-form__mail-block">
-                                <label class="contact-form__mail-lbl" for="user-mail-block">Ваш e-mail <span class="star"> *</span></label>
-                                <input id="user-mail-block" class="contact-form__user-mail" type="text" name="user-mail" required>
-                            </div>
-                            <div class="contact-form__letter-block">
-                                <label class="contact-form__letter-lbl" for="user-message-block">Ваше сообщение</label>
-                                <textarea id="user-message-block" class="contact-form__user-message" name="user-message"></textarea>
-                            </div>
+            <div class="contacts__form">
+                <form class="contact-form" method="post">
+                    <div class="contact-form__input-area">
+                        <div class="contact-form__name-block">
+                            <label class="contact-form__name-lbl" for="user-name-block">Ваше имя <span
+                                    class="star"> *</span></label>
+                            <input id="user-name-block" class="contact-form__user-name" type="text" name="user-name"
+                                   required>
                         </div>
-                        <div class="contact-form__button-area">
-                            <button type="submit" class="btn send-btn contact-form__btn">Отправить письмо</button>
+                        <div class="contact-form__mail-block">
+                            <label class="contact-form__mail-lbl" for="user-mail-block">Ваш e-mail <span
+                                    class="star"> *</span></label>
+                            <input id="user-mail-block" class="contact-form__user-mail" type="text" name="user-mail"
+                                   required>
                         </div>
-                    </form>
-                </div>
+                        <div class="contact-form__letter-block">
+                            <label class="contact-form__letter-lbl" for="user-message-block">Ваше сообщение</label>
+                            <textarea id="user-message-block" class="contact-form__user-message"
+                                      name="user-message"></textarea>
+                        </div>
+                    </div>
+                    <div class="contact-form__button-area">
+                        <button type="submit" class="btn send-btn contact-form__btn">Отправить письмо</button>
+                    </div>
+                </form>
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <section class="social container">
-            <a href="https://htmlacademy.ru/rating" class="social__link"><i class="social__icon icon-html5"></i></a>
-            <a href="http://spb.hh.ru/resume/4214f346ff02ee37560039ed1f6542396b5153" class="social__link"><i class="social__icon icon-header"></i></a>
-            <a href="https://www.linkedin.com/in/%D1%8E%D0%BB%D0%B8%D1%8F-%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%D1%87-3a6649b8?trk=nav_responsive_tab_profile_pic" class="social__link"><i class="social__icon icon-linkedin"></i></a>
-            <a href="https://plus.google.com/u/0/109179117226192013725/about" class="social__link"><i class="social__icon icon-google"></i></a>
-            <a href="https://github.com/YSeredich" class="social__link"><i class="social__icon icon-github"></i></a>
-            <a href="https://www.facebook.com/yulia.seredich" class="social__link"><i class="social__icon icon-facebook"></i></a>
-        </section>
-    </footer>
-<script src="js/email.js"></script>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <section class="social container">
+        <a class="social__link" href="https://htmlacademy.ru/profile/id79346">
+            <i class="social__icon icon-html5"></i>
+        </a>
+        <a class="social__link" href="http://spb.hh.ru/resume/4214f346ff02ee37560039ed1f6542396b5153">
+            <i class="social__icon icon-header"></i>
+        </a>
+        <a class="social__link"
+           href="https://www.linkedin.com/in/%D1%8E%D0%BB%D0%B8%D1%8F-%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%D1%87-3a6649b8?trk=nav_responsive_tab_profile_pic">
+            <i class="social__icon icon-linkedin"></i>
+        </a>
+        <a class="social__link" href="https://plus.google.com/u/0/109179117226192013725/about">
+            <i class="social__icon icon-google"></i>
+        </a>
+        <a class="social__link" href="https://github.com/YSeredich">
+            <i class="social__icon icon-github"></i>
+        </a>
+        <a class="social__link" href="https://www.facebook.com/yulia.seredich">
+            <i class="social__icon icon-facebook"></i>
+        </a>
+    </section>
+</footer>
+<script src="js/main.js"></script>
 </body>
 </html>

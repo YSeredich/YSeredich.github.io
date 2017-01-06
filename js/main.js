@@ -1,6 +1,8 @@
 /**
  * Created by yulia on 28.02.2016.
  */
+
+/*email*/
 var form = document.querySelector('.contacts__form');
 form.onsubmit = function(event) {
     event.preventDefault();
