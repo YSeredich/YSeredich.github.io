@@ -456,57 +456,14 @@ body {
 }
 
 .contacts__info {
-    float: left;
-    width: 50%;
-    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
     color: #ccc;
 }
 .contacts__text,
 .contacts__mail-phone {
     margin-bottom: 2vw;
-    width: 80%;
-}
-
-
-.contacts__form {
-    float: left;
-    width: 50%;
-    text-align: left;
-    margin-bottom: 5vw;
-}
-.contact-form__name-lbl,
-.contact-form__mail-lbl,
-.contact-form__letter-lbl {
-    display: block;
-    margin-bottom: 15px;
-    color: #fff;
-}
-
-.contact-form__name-block,
-.contact-form__mail-block,
-.contact-form__letter-block {
-    margin-bottom: 2vw;
-}
-
-.contact-form__user-name,
-.contact-form__user-mail,
-.contact-form__user-message {
-    height: 53px;
-    width: 90%;
-    box-sizing: border-box;
-    padding-left: 15px;
-
-    font-family: 'Roboto', 'Arial', sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    color: #fff;
-
-    background-color: #4b5456;
-    border: 1px solid #4b5456;
-}
-
-.contact-form__user-message {
-    height: 15vw;
 }
 
 .star {
